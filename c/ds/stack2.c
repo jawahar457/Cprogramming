@@ -1,3 +1,4 @@
+//stack impelementaion
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h> 
@@ -51,7 +52,6 @@ void Dispaly(struct Stack* stack)
 		printf("stack is empty\n");
 		exit(1);
 	}
-	for (int i = stack->top; i >= 0; --i)
 	{
 	 printf("elements in the stack :%d\n",stack->array[i]);
 	}
